@@ -1,0 +1,30 @@
+=======================================================
+WORKSTATION
+-install texlive texmaker sshfs feh rsync texlive-publisher texlive-math-extra
+
+-randomize wallpaper with prior to loading i3 by running a scirpt ~/bin/wallpaper-setter-script:
+	#!sh
+	feh --bg-max --randomize ~/.wallpaper/* &
+
+-change colorscheme to wombat256 as follows:
+ -$ git clone git@github.com:michalbachowski/vim-wombat256mod.git
+ -$ cd   vim-wombat256mod/colors/
+ -$ sudo cp wombat256mod.vim /usr/share/vim/vim74/colors
+ -# In your ~/.vimrc, add these lines 
+  -set t_Co=256
+  -colorscheme wombat256mod
+
+-append to ~/.vimrc:
+ -set whichwrap+=<,>,h,l,[,]
+=======================================================
+
+-schedule grief appointment reminders
+
+-financial aid
+ -what is the minimum amount for repayment? 
+ -are all loans thru nelnet? YES
+
+-journal
+ -I am happy for the substance I am addicted to be coffee.
+ -I smile when thinking of kore's passing because...
+
