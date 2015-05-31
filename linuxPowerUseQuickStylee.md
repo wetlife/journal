@@ -54,10 +54,11 @@ Amixer is commandline interfacing to volume:
     - testing scnd lvl  itm w/ 4 spaces
 	- testing second lvl itm w/ tab
 
+ALL ENUM. ITEMS STARTED W/ '1.'
 1. testing base-level item
-  1. testing second level item with two spaces
-    1. testing scnd lvl  itm w/ 4 spaces
-	1. testing second lvl itm w/ tab
+ 1. testing second level item with one space
+  1. testing scnd lvl  itm w/ 2 spaces
+	1. testing itm preceded by a tab
 1. testing scnd base-lvl itm called 1. in src
 
 ###TODO###
