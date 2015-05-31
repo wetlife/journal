@@ -28,15 +28,16 @@ Git allows one person or many collaborators to work from many different computer
 Every *repo* is a complete copy of all files and their history. The name repo refers to all of the *tracked* files and their complete history of previous versions. A file is tracked when git is watching it for changes.
 #### Setup
 1. Check for ssh-keys so that current keys won't be overwritten by generating new ones.
-```
-ls -al ~/.ssh
-# Lists the files in your .ssh directory, if they exist
-```
+    ```bash
+    $ ls -al ~/.ssh
+    # Lists the files in your .ssh directory, if they exist
+    ```
 2. If there are ssh-keys in `~/.ssh`, which is a common place to store these keys, then use these keys by copying the text within them just as one would after generating these keys. That is, proceed to the step for copying the localmachine's keys to github.
-
-3. TESTING
-
-A more complete instruction set, if needed, is located [here](https://help.github.com/articles/generating-ssh-keys/).
+3. ```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+# Creates a new ssh key, using the provided email as a label
+# Generating public/private rsa key pair.```
+- A more complete instruction set, if needed, is located [here](https://help.github.com/articles/generating-ssh-keys/).
 
 #### Workflow(TESTING '####HEADING' IN A NEW PARAGRAPH)
 
@@ -48,3 +49,18 @@ Amixer is commandline interfacing to volume:
 - `$ man amixer` to read the manpage for further info
 
 ### General Shell Use
+- testing base-level item
+  - testing second level item with two spaces
+    - testing scnd lvl  itm w/ 4 spaces
+	- testing second lvl itm w/ tab
+1. testing base-level item
+  1. testing second level item with two spaces
+    1. testing scnd lvl  itm w/ 4 spaces
+	1. testing second lvl itm w/ tab
+1. testing scnd base-lvl itm called 1. in src
+
+###TODO###
+things to do in this doc
+- copy style from [github ssh-keygen howto page](https://help.github.com/articles/generating-ssh-keys/)
+- finish testing enumeration of GFM
+- finish writing github section
