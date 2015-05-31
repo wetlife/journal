@@ -28,12 +28,13 @@ Git allows one person or many collaborators to work from many different computer
 Every *repo* is a complete copy of all files and their history. The name repo refers to all of the *tracked* files and their complete history of previous versions. A file is tracked when git is watching it for changes.
 #### Setup
 1. Check for ssh-keys so that current keys won't be overwritten by generating new ones.
-    ```bash
+```bash
     $ ls -al ~/.ssh
     # Lists the files in your .ssh directory, if they exist
     ```
 2. If there are ssh-keys in `~/.ssh`, which is a common place to store these keys, then use these keys by copying the text within them just as one would after generating these keys. That is, proceed to the step for copying the localmachine's keys to github.
-3. ```bash
+3.
+```bash
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # Creates a new ssh key, using the provided email as a label
 # Generating public/private rsa key pair.```
