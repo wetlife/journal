@@ -6,10 +6,12 @@ Here are ideas which present efficient ways to work with linux set up as a keybo
 ### How to Read This Document
 - Code is written within a code-block, as so: `foo`.
 - Text which is to be written at the command-prompt is preceded by the traditional user-prompt-character, as so: `$ *foo*`.
+- When using commands from here preceded by a prompt, do not enter the prompting character, `$`.
 
 ## Install
 Arch is wonderful for AUR and maintaining a paradigm of allowing users to install only what they need within a system consisting of a custom kernel and a minimal set of utilities.
 - Arch Installation
+
 ## From a Fresh Install
 
 ### Install All Software Used Here
@@ -19,6 +21,24 @@ If a package is unfamiliar after perusing , look it up when time permits.
 Vim supports efficient work. A couple good points about vim:
 - homerow: the interface is homerow-centric
 - availability: have a comfortable and efficient editor even when ssh-ing
+
+### Sync and Backup Projects
+Git allows one person or many collaborators to work from many different computers on a project. Setup, ideology, and workflow are all simply explained.
+#### Ideology
+Every *repo* is a complete copy of all files and their history. The name repo refers to all of the *tracked* files and their complete history of previous versions. A file is tracked when git is watching it for changes.
+#### Setup
+1. Check for ssh-keys so that current keys won't be overwritten by generating new ones.
+```
+ls -al ~/.ssh
+# Lists the files in your .ssh directory, if they exist
+```
+2. If there are ssh-keys in `~/.ssh`, which is a common place to store these keys, then use these keys by copying the text within them just as one would after generating these keys. That is, proceed to the step for copying the localmachine's keys to github.
+
+3. TESTING
+
+A more complete instruction set, if needed, is located [here](https://help.github.com/articles/generating-ssh-keys/).
+
+#### Workflow(TESTING '####HEADING' IN A NEW PARAGRAPH)
 
 ### Writing Technical Documents
 
