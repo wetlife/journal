@@ -67,7 +67,8 @@ ALL ENUM. ITEMS STARTED W/ '1.' IN SRC:
 1. testing base-level item
  1. testing itm w/ 1 space
   1. testing itm w/ 2 spaces
-   1. testing itm w/ 3 spaces
+
+   1. testing itm w/ 3 spaces IN NEW PARAGRAPH
     1. testing itm w/ 4 spaces
      1. testing itm w/ 5 spaces
 	1. testing preceded by a tab
