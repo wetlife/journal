@@ -38,7 +38,7 @@ $ ls -al ~/.ssh
   # Creates a new ssh key, using the provided email as a label
   # Generating public/private rsa key pair.
 ```
-- `$ git config --global push.default simple` gives the ability to type `$ git push` instead of `$git push origin master` to push to the remote repo
+- `$ git config --global push.default simple` gives the ability to type `$ git push` instead of `$ git push origin master` to push to the remote repo
 - A more complete instruction set, if needed, is located [here](https://help.github.com/articles/generating-ssh-keys/).
 
 
@@ -67,8 +67,7 @@ ALL ENUM. ITEMS STARTED W/ '1.' IN SRC:
 1. testing base-level item
  1. testing itm w/ 1 space
   1. testing itm w/ 2 spaces
-
-   1. testing itm w/ 3 spaces IN NEW PARAGRAPH
+   1. testing itm w/ 3 spaces WHOLE LIST WAS DOUBLE-SPACED WHEN THIS ITEM WAS IN A NEW PARAGRAPH FROM LAST ITEM, IT'S NOT IN A NEW PARAGRAPH NOW. IS THE LIST SINGLE-SPACED NOW?
     1. testing itm w/ 4 spaces
      1. testing itm w/ 5 spaces
 	1. testing preceded by a tab
