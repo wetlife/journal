@@ -39,7 +39,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # Generating public/private rsa key pair.```
 - A more complete instruction set, if needed, is located [here](https://help.github.com/articles/generating-ssh-keys/).
 
-#### Workflow(TESTING '####HEADING' IN A NEW PARAGRAPH)
+#### Workflow
 
 ### Writing Technical Documents
 
@@ -50,17 +50,25 @@ Amixer is commandline interfacing to volume:
 
 ### General Shell Use
 - testing base-level item
-  - testing second level item with two spaces
-    - testing scnd lvl  itm w/ 4 spaces
-	- testing second lvl itm w/ tab
+ - testing itm w/ 1 space
+  - testing level item with two spaces
+   - testing itm w/ 3 spaces
+    - testing itm w/ 4 spaces
+     - testing itm w/ 5 spaces
+      - testing itm w/ 6 spaces
+       - testing itm w/ 7 spaces
+	- testing itm w/ tab
 
-ALL ENUM. ITEMS STARTED W/ '1.'
+ALL ENUM. ITEMS STARTED W/ '1.' IN SRC:
 
 1. testing base-level item
- 1. testing second level item with one space
-  1. testing scnd lvl  itm w/ 2 spaces
-	1. testing itm preceded by a tab
-1. testing scnd base-lvl itm called 1. in src
+ 1. testing itm w/ 1 space
+  1. testing itm w/ 2 spaces
+   1. testing itm w/ 3 spaces
+    1. testing itm w/ 4 spaces
+     1. testing itm w/ 5 spaces
+	1. testing preceded by a tab
+1. testing scnd base-lvl itm
 
 ###TODO###
 things to do in this doc
