@@ -5,7 +5,7 @@ Here are ideas which present efficient ways to work with linux set up as a keybo
 
 ### How to Read This Document
 - Code is written within a code-block, as so: `foo`.
-- Text which is to be written at the command-prompt is preceded by the traditional user-prompt-character, as so: `$ *foo*`.
+- Text which is to be written at the command-prompt is preceded by the traditional user-prompt-character, as so: `$ foo`.
 - When using commands from here preceded by a prompt, do not enter the prompting character, `$`.
 
 ## Install
@@ -52,6 +52,8 @@ Amixer is commandline interfacing to volume:
 - `$ man amixer` to read the manpage for further info
 
 ### General Shell Use
+
+####TESTING GFM SANDBOX
 - testing base-level item
  - testing itm w/ 1 space
   - testing level item with two spaces
@@ -71,7 +73,7 @@ ALL ENUM. ITEMS STARTED W/ '1.' IN SRC:
     1. testing itm w/ 4 spaces
      1. testing itm w/ 5 spaces
 	1. testing preceded by a tab
-1. testing scnd base-lvl itm
+1. testing w/ (what should be?) a 2nd base-lvl itm
 
 ###TODO###
 things to do in this doc
