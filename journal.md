@@ -9,8 +9,8 @@ After I repay my student loans, at some point I hope to:
 I should make a separate life-plan-document
 
 My custom date script, /usr/bin/kyDate: 
-'''sh
+```sh
 
 #!/bin/sh
 date +%C%y.%m.%d@%H:%M
-'''
+```
