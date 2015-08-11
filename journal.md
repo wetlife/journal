@@ -12,13 +12,13 @@ I should make a separate life-plan-document
 
 My custom date script, /usr/bin/kyDate: 
 ```sh
-
 #!/bin/sh
 date +%C%y.%m.%d@%H:%M
 ```
 
+2015.08.11@15:56
 My custom git-syncing script, /usr/bin/kygitcommit:
-```
+```sh
 #!/bin/sh
 git add .
 git commit -m "$1"
