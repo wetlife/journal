@@ -1,0 +1,11 @@
+Include code listings with package listings as follows:
+\begin{lstlisting}[ frame=single, language=Tex]
+\begin{lstlisting}
+\end{lstlisting}
+To insert the date and time in the format YYYY.MM.DDatHour:Min,
+use the vim command \lstinline[language=bash]$:r ![/usr/bin/]kydate$. kydate is the following shell script:
+\begin{lstlisting}[language=bash,frame=single]
+#!/bin/sh
+date +%C%y.%m.%dat%H:%M
+\end{lstlisting}
+Insert a source-code-listing with either the lstlisting latex environment or the lstinline command, which takes the same options as lstlisting. The mathescape option is set, allowing the \LaTeX to render math-mode enclosed in dollar-signs (AKA \$).
