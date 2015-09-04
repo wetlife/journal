@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex journal"] 1440207803 "journal.aux" "journal.bbl" "journal" 1440211963
+["bibtex journal"] 1441058489 "journal.aux" "journal.bbl" "journal" 1441175832
   "/usr/share/texmf-dist/bibtex/bst/revtex/apsrev4-1.bst" 1428511743 71518 fec93f06df0c073f83d2330456bd19c2 ""
-  "journal.aux" 1440207800 990 6ad5ea914341946d90e3620ce27591a2 ""
+  "journal.aux" 1441058486 1498 22ca6a786399e40f505542bae1524b1a ""
   "journal.bcf" 0 -1 0 ""
-  "journalNotes.bib" 1440207800 103 48ad29797468f16e2853d8797278d7af ""
+  "journalNotes.bib" 1441058486 103 48ad29797468f16e2853d8797278d7af ""
   (generated)
-  "journal.bbl"
   "journal.blg"
-["pdflatex"] 1440211963 "journal.tex" "journal.pdf" "journal" 1440211963
+  "journal.bbl"
+["pdflatex"] 1441175832 "journal.tex" "journal.pdf" "journal" 1441175832
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1428510321 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1428510340 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1428510340 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -39,10 +39,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1428510412 31669 df537245012f3e5f05bdc55644b7a3df ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1438097806 3339340 9cad1bed151d08f996b01e7fcc65ac13 ""
   "abstract.tex" 1440201136 659 124d1b98dba081af1326ea051442a2f7 ""
-  "contents.tex" 1440207797 2359 1da3e77af794efa52e56dfe63475734d ""
-  "journal.aux" 1440207800 990 6ad5ea914341946d90e3620ce27591a2 ""
-  "journal.bbl" 1440207803 1983 c789b8b2e2ff60989c671635ad8473c2 "bibtex journal"
-  "journal.tex" 1440211961 359 528cf839cbc89a4be37cdd77a0215348 ""
+  "contents.tex" 1441175830 4776 59c3f94668e40e5656dbd0bb70f4c067 ""
+  "journal.aux" 1441058486 1498 22ca6a786399e40f505542bae1524b1a ""
+  "journal.bbl" 1441058489 1983 c789b8b2e2ff60989c671635ad8473c2 "bibtex journal"
+  "journal.tex" 1440211966 359 528cf839cbc89a4be37cdd77a0215348 ""
   (generated)
   "journal.log"
   "journal.pdf"
