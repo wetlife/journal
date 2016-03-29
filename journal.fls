@@ -2,8 +2,8 @@ PWD /home/thomasky/Downloads/journal
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
-INPUT /var/lib/texmf/web2c/xetex/xelatex.fmt
-INPUT journal.tex
+INPUT /var/lib/texmf/web2c/pdftex/latex.fmt
+INPUT /home/thomasky/Downloads/journal/journal.tex
 OUTPUT journal.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4-1.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4-1.cls
@@ -67,13 +67,3 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti9.tfm
-INPUT contents.tex
-INPUT contents.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT journal.bbl
-INPUT journal.bbl
-INPUT journal.aux
