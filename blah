@@ -1,9 +1,0 @@
-#!/bin/bash
-# USAGE: <blah> [TOPIC_NAME1] [TOPIC_NAME2]...[Topic2]
-#  I personally use a caller script in my search path called blah so that my usage be all like $blah topic1 topic2  followed by playing with vim goodness. 
-#JOURNAL="temp.txt"
-JOURNAL="/home/thomasky/Downloads/journal/contents.tex"
-echo "" >> $JOURNAL
-echo "\\section*{ `/usr/local/bin/kydate` }" >> $JOURNAL
-echo "\\subsection*{ ${@:1} }" >> $JOURNAL
-vim $JOURNAL
