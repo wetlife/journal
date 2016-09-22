@@ -987,3 +987,102 @@ Teach people how to fall in love with a computer through the terminal.
 \section*{ 2016.09.10at19:27 }
 \subsection*{ #writtenWithBlahScript }
 millionDollarIdea businessProposal Propose the following idea to either AutoDesk or Google. The idea is to create a touch-driven constructive solid modeling application. Use the data about what physical situations are madeled by which models to source machine-learning projects. Use a github-style money-model: all works are publicly accessible for others to use as primitives to build with and mine for data about the physical structure of the world, among other interesting machine learning tasks. This is essentially marketable as a philanthropic venture which can be monetized well.
+
+\section*{ 2016.09.10at20:07 }
+\subsection*{ Facebook }
+Dear Facebook,
+You have some shaping up to do. I understand that you have a motivation to make reading and writing posts occur through a web-browser because your income is from ads shown in browser.
+
+I am begging you, Facebook, to please make a textual interface and thereby join the fore of those who create radical new monetization schemes. Be part of humanity's research and development into how to be.
+
+I am interested in helping you become hugely beneficial to humanity with your wealth of data. There is one requirement I have for this mission. My requirement is Google's founding mantra: don't be evil.
+
+I give a respectful nod to Google for what they have done by creating a remarkably efficient means of finding documents on the internet. I am very interested in their algorithms.
+
+I see huge benefits to the design of electronics through modeling operations of embedded systems in neural networks by the structure of the internet, packet-direction-algorithms, and the most efficient algorithms we have for locating a particular datum in the network of data.
+
+This is an idea for Facebook to make a market for data by charging an affordable cost for an affordable amount of computational effort on Facebook's part. Facebook could charge for large amounts of data and computation. Facebook could simply provide a marketplace that gives a means of public address to the public.
+
+
+\section*{ 2016.09.16at21:51 }
+\subsection*{ if I were to explain all of physics }
+If I were to explain all of physics, then unity is the one place I'd start. Taking a thing to be unity and accepting its attendant dimension obviates the need of further consideration of dimensionality. This sets the stage and names the players that are consequential at any particular precision. This has been a wordy and rhetorical-sounding statement thus far. Examples will clarify what I've said.
+
+An example is taking astronomical mass units(AMU) to be unity. Now the forces involved in a hug are only consequential to a much higher precision than the order of unity.
+
+\section*{ 2016.09.17at12:31 }
+\subsection*{ testing current font setup }
+I have had a hell of a time with font-spacing in the terminal that has pervaded across different virtual terminals. I finally found an acceptable resolution with following steps:
+using rxvt-unicode, which is faster for not using toolkit;
+removing file /etc/config.d/fonts/70-no-bitmap-fonts;
+contents of .Xdefaults taken from a forum post:
+
+\begin{lstlisting}
+URxvt.depth: 32
+URxvt.background: [80]#000000
+URxvt.foreground: #FFFFFF
+URxvt*.transparent: true
+URxvt*.shading: 20
+
+URxvt.scrollBar: false
+URxvt*saveLines: 12000
+URxvt*scrollstyle:plain
+
+URxvt.scrollTtyOutput: false
+URxvt.scrollWithBuffer: true
+URxvt.scrollTtyKeypress: true
+
+URxvt.perl-ext-common:  default,matcher
+URxvt.url-launcher:     /usr/bin/google-chrome
+URxvt.matcher.button:   1
+
+! URxvt*iconFile: /usr/share/icons/oxygen/32x32/apps/utilities-terminal.png
+URxvt*iconFile: /usr/share/icons/Humanity/apps/32/terminal.svg
+
+! Fix spacing
+URxvt.letterSpace: -3
+
+! Theme:
+
+Xcursor.theme:    Vanilla-DMZ-AA
+
+! http://bastian.rieck.ru/blog/posts/2013/making_urxvt_beautiful/
+! Cyan 6/14, Green 2/10 and Bright red 9 modified
+
+urxvt*foreground: white
+urxvt*background: black
+
+
+*color0:  #2E3436
+*color1:  #a40000
+*color2:  #22cf47
+*color3:  #C4A000
+*color4:  #3465A4
+*color5:  #75507B
+*color6:  #22aacf
+*color7:  #babdb9
+*color8:  #555753
+*color9:  #EF4545
+*color10: #63e67f
+*color11: #FCE94F
+*color12: #729FCF
+*color13: #AD7FA8
+*color14: #63c9e6
+*color15: #EEEEEC
+
+!urxvt fonts: 
+
+URxvt*font: xft:Terminus:pixelsize=16
+URxvt*boldFont: xft:Terminus:pixelsize=16
+! URxvt*font: xft:Ubuntu Mono derivative Powerline:pixelsize=15
+! URxvt*boldFont: xft:Ubuntu Mono derivative Powerline Bold:pixelsize=15
+! URxvt*font: xft:Monospace:pixelsize=12
+! URxvt*boldFont: xft:Monospace:bold:pixelsize=12
+
+! General font settings
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+\end{lstlisting}

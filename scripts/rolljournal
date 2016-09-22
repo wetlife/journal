@@ -1,0 +1,7 @@
+#!/bin/bash
+pwdrolljournal=/tmp/pwdrolljournal
+journal=~/journal/contents.tex
+pwd > pwdrolljournal
+latexmk -pvc -pdf $journal &
+pwd < $pwdrolljournal
+rm $pwdrolljournal
