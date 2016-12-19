@@ -4,7 +4,9 @@
 # USAGE: $blah <word1>[, <word2>,..., <wordN>]
 # EXAMPLE: $blah coolThingToSay 
 #JOURNAL="./tempJournalTestFile"
-JOURNAL="/home/thomasky/Downloads/journal/contents.tex"
+JOURNAL="/home/thomasky/journal/contents.tex"
+echo "Journal file being used: "
+echo $JOURNAL
 echo "" >> $JOURNAL
 echo "\\section*{ `/usr/local/bin/kydate` }" >> $JOURNAL
 echo "\\subsection*{ #writtenWithBlahScript }" >> $JOURNAL
