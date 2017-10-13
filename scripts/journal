@@ -2,7 +2,7 @@
 # author:kyle thomas
 # USAGE: $journal [TOPIC_NAME1 TOPIC_NAME2 ..]
 #- this journal is the "$blah"-script plus the line vim $JOURNAL
-JOURNAL="/home/thomasky/usb/UNTITLED/journal/contents.tex"
+JOURNAL="/home/thomasky/journal/contents.tex"
 echo "" >> $JOURNAL
 echo "\\section*{ `/usr/local/bin/kydate` }" >> $JOURNAL
 echo "\\subsection*{ ${@:1} }" >> $JOURNAL
