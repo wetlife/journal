@@ -1,11 +1,11 @@
 #!/bin/bash
-rolljournalpwd=`pwd`
-rolljournalpath=~/journal/
-rolljournalfile=journal.tex
-cd $rolljournalpath
+ROLLJOURNALPWD=`pwd`
+ROLLJOURNALPATH=~/journal/
+ROLLJOURNALFILE=journal.tex
+cd $ROLLJOURNALPATH
 # compile journal to pdf continuously from bg
-latexmk -pvc -pdf rolljournalfile &
-cd $rolljournalpwd
-unset rolljournalpwd
-unset rolljournalpath
-unset rolljournalfile
+latexmk -pvc -pdf $ROLLJOURNALFILE &
+cd $ROLLJOURNALPWD
+unset ROLLJOURNALPWD
+unset ROLLJOURNALPATH
+unset ROLLJOURNALFILE
