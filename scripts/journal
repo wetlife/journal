@@ -1,10 +1,18 @@
 #!/bin/bash
 # author:kyle thomas
-# USAGE: $journal [TOPIC_NAME1 TOPIC_NAME2 ..]
-#- this journal is the "$blah"-script plus the line vim $JOURNAL
-JOURNAL="/home/wetlife/journal/contents.tex"
-echo "" >> $JOURNAL
-echo "\\section*{ `/usr/local/bin/kydate` }" >> $JOURNAL
-echo "\\subsection*{ ${@:1} }" >> $JOURNAL
-echo "UNBEGUN" >> $JOURNAL
-vim $JOURNAL
+# usage: $journal [topic_name_1 [... topic_name_N]]
+journal="/home/wetlife/Documents/journal/contents.tex"
+original_dir="$(pwd)"
+# write a uniform label for this journal-entry
+echo "" >> $journal
+echo "\\section*{ `date +%Y.%m.%dat%H.%M.%S` }" >> $journal
+echo "\\subsection*{ ${@:1} }" >> $journal
+# cd into journal's dir so swap files remain there
+#   thus if swap files exist then user will be notified
+cd ${journal%/*}
+# manually edit the journal
+vim $journal
+# return to original dir on clean exit from editor
+cd $original_dir
+# if exit is not clean then user will be notified on the
+#   next invocation
